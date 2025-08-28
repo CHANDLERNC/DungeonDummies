@@ -2,7 +2,7 @@
   "name": "dungeondummies",
   "version": "1.0.0",
   "description": "Electron wrapper for Dungeon Dummies game",
-  "main": "scripts/main.js",
+  "main": "main/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"No tests specified\""
