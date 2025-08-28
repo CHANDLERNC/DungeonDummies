@@ -1,2 +1,12 @@
 # DungeonDummies
-project file to work on learning electrom
+
+Electron wrapper for the Dungeon Dummies browser game.
+
+## Development
+
+Install dependencies and start the game:
+
+```bash
+npm install
+npm start
+```
