@@ -1212,7 +1212,9 @@ const musicPacks = [
   { type:'triangle', notes:[233.08,261.63,277.18,311.13,349.23,392,415.3] }
 ];
 function initAudio(){
-  if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  if(!AudioCtx) return;
+  if(!audioCtx) audioCtx = new AudioCtx();
   if(audioCtx.state === 'suspended') audioCtx.resume();
 }
 function playFootstep(){
