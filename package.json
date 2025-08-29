@@ -4,7 +4,7 @@
   "description": "Electron wrapper for Dungeon Dummies game",
   "main": "main/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron --no-sandbox .",
     "test": "echo \"No tests specified\""
   },
   "devDependencies": {
